@@ -1,0 +1,57 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    font-size: 3em; /* Large and prominent */
+    margin-top: 40px; /* Adds space above the title */
+    margin-bottom: 20px; /* Space before the buttons */
+}
+
+.content {
+    width: 100%; /* Full width to allow centering of buttons */
+    max-width: 600px; /* Keeps buttons grouped */
+    padding: 20px;
+    text-align: center; /* Ensures buttons are centered */
+}
+
+nav {
+    margin: 20px;
+}
+
+.nav-button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+footer {
+    font-size: 0.8em;
+    color: #666;
+    padding: 10px 0;
+    background-color: transparent;
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* Ensures footer spans the entire width of the viewport */
+}
